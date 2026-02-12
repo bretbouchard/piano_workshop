@@ -1,0 +1,31 @@
+{
+  "name": "Salamander Grand Piano",
+  "version": "1.0.0",
+  "format": "SF2",
+  "sample_rate": 44100,
+  "bit_depth": 16,
+  "channels": 1,
+  "velocity_layers": 16,
+  "note_range": {
+    "min": 21,
+    "max": 108,
+    "min_name": "A0",
+    "max_name": "C8"
+  },
+  "release_samples": true,
+  "file_size_mb": 554.79,
+  "license": "CC-BY 3.0",
+  "attribution": "Alexander Holm",
+  "source_url": "https://github.com/sfzinstruments/SalamanderGrandPiano",
+  "converted_date": "2024-12-24T00:00:00Z",
+  "converter": "Sam Sampler Piano Build Pipeline",
+  "features": {
+    "sustain_pedal": true,
+    "release_samples": true,
+    "hammer_noise": true,
+    "string_resonance": true,
+    "pedal_noise": true,
+    "velocity_response": "dynamic",
+    "polyphony": "optimized"
+  }
+}

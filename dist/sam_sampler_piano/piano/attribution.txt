@@ -1,0 +1,17 @@
+Salamander Grand Piano
+© Alexander Holm
+Licensed under Creative Commons Attribution 3.0 (CC-BY 3.0)
+Source: https://github.com/sfzinstruments/SalamanderGrandPiano
+
+Original recordings: 48kHz/24-bit FLAC
+Converted for Sam Sampler: 16-bit/44.1kHz WAV (SF2 format)
+
+Conversion details:
+- 16 velocity layers per note
+- Note range: A0 (21) to C8 (108)
+- Includes release samples (string resonance, hammer noise)
+- Includes pedal noise samples
+- ~500-600 MB total size
+
+Conversion pipeline by Sam Sampler project
+Date: 2024-12-24

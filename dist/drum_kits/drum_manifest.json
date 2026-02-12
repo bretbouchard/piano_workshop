@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "created": "2024-12-24",
+  "last_updated": "2024-12-24",
+  "description": "Drum machine SF2 library for Sam Sampler",
+  "total_kits": 14,
+  "drum_kits": [
+    {
+      "id": "roland_tr808",
+      "name": "Roland TR-808",
+      "manufacturer": "Roland",
+      "year": 1980,
+      "file": "roland_tr808.sf2",
+      "status": "ready_for_sf2",
+      "source_path": "/Volumes/Storage/samples/Roland - JeuneLys_Beatz/ROLAND_TR-808_(1980)",
+      "build_path": "piano_workshop/piano_workshop/build/drum_kits/tr808_gm/",
+      "sfz_file": "roland_tr808.sfz",
+      "num_samples": 52,
+      "num_instruments": 14,
+      "estimated_size_mb": 4.0,
+      "midi_mapping": "gm_standard",
+      "instruments": [
+        {"name": "Kick", "midi_key": 36, "velocity_layers": 3, "samples": 4},
+        {"name": "Snare", "midi_key": 38, "velocity_layers": 3, "samples": 4},
+        {"name": "Closed Hat", "midi_key": 42, "velocity_layers": 3, "samples": 4},
+        {"name": "Open Hat", "midi_key": 46, "velocity_layers": 3, "samples": 4},
+        {"name": "Low Tom", "midi_key": 43, "velocity_layers": 3, "samples": 3},
+        {"name": "Mid Tom", "midi_key": 45, "velocity_layers": 3, "samples": 3},
+        {"name": "High Tom", "midi_key": 47, "velocity_layers": 3, "samples": 3},
+        {"name": "Clap", "midi_key": 39, "velocity_layers": 3, "samples": 4},
+        {"name": "Cowbell", "midi_key": 56, "velocity_layers": 3, "samples": 4},
+        {"name": "Conga", "midi_key": 60, "velocity_layers": 3, "samples": 4},
+        {"name": "Cymbal", "midi_key": 49, "velocity_layers": 3, "samples": 4},
+        {"name": "Rim Shot", "midi_key": 37, "velocity_layers": 3, "samples": 4},
+        {"name": "Clave", "midi_key": 35, "velocity_layers": 3, "samples": 3},
+        {"name": "Maracas", "midi_key": 49, "velocity_layers": 3, "samples": 4}
+      ],
+      "presets": [
+        {"id": 0, "name": "GM Standard", "description": "General MIDI Standard mapping"},
+        {"id": 1, "name": "Full Velocity", "description": "All velocity layers enabled"},
+        {"id": 2, "name": "Raw", "description": "Single samples per key"}
+      ],
+      "tags": ["vintage", "analog", "drum_machine", "808", "iconic", "hiphop", "electronic"],
+      "license": "Original samples public domain",
+      "attribution": "Roland TR-808 (1980)"
+    }
+  ]
+}
